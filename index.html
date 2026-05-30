@@ -74,7 +74,16 @@ nav{
 .btn-ghost{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.6rem;background:transparent;color:var(--gray-700);font-size:.88rem;font-weight:500;border-radius:8px;text-decoration:none;border:1.5px solid var(--gray-200);transition:all .2s}
 .btn-ghost:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
 .hero-card{background:var(--white);border-radius:20px;padding:2.5rem;box-shadow:var(--shadow-md);border:1px solid var(--gray-100)}
-.hero-avatar{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#1d4ed8,#7c3aed);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;color:#fff;margin-bottom:1.5rem}
+.hero-avatar{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+  margin:0 auto 1.5rem;
+  border:3px solid #fff;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+} 
 .hero-card-name{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;color:var(--black);margin-bottom:.25rem}
 .hero-card-title{font-size:.85rem;color:var(--accent);font-weight:500;margin-bottom:1.5rem}
 .hero-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem}
@@ -215,6 +224,7 @@ footer{padding:2rem 5%;border-top:1px solid var(--gray-100);display:flex;align-i
   <a href="mailto:nk0044385@gmail.com" class="nav-cta">Hire Me</a>
 </nav>
 
+
 <!-- HERO -->
 <section class="hero">
   <div class="hero-inner">
@@ -229,7 +239,7 @@ footer{padding:2rem 5%;border-top:1px solid var(--gray-100);display:flex;align-i
     </div>
     <div class="hero-right">
       <div class="hero-card">
-        <div class="hero-avatar">NK</div>
+        <img src="protfolio.jpeg" alt="Nandu Krishna" class="hero-avatar">
         <div class="hero-card-name">Nandu Krishna</div>
         <div class="hero-card-title">Data Analyst · MCA Candidate</div>
         <div class="hero-stats">
